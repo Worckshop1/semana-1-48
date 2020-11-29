@@ -1,34 +1,8 @@
 body{
     width: 1200px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     margin-left: auto;
     margin-right: auto;
-}
-.servicios{
-    background-color: rgb(194, 218, 241);
-    display: flow-root;
-    text-align: center;
-    margin-bottom: 10px;
-}
-.servicios__informacion{
-    
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-}
-.servicios__tipo{
-    background-color: white;
-    border-top-style: hidden;
-    width: 350px;
-    
-}
-.servicios__imagen{
-    padding: 0px;
-}
-.informacion{
-    text-align: justify;
-    padding-left: 25px;
-    padding-right: 25px;
 }
 .alfinal{
     display: flex;
@@ -41,18 +15,18 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     font-size: smaller;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: justify;
 }
 .alfinal__contacto{
     font-size: smaller;
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-evenly;
     
 }
 .alfinal__miembros{
-    display: flow-root;
+    display: flex;
     margin-left: 20px;
     margin-right: 20px;
     
@@ -60,5 +34,5 @@ body{
 .alfinal__gmail{
     display: flex;
     align-items: center;
-    justify-content: safe;
+    justify-content: space-evenly;
 }
