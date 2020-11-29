@@ -30,3 +30,35 @@ body{
     padding-left: 25px;
     padding-right: 25px;
 }
+.alfinal{
+    display: flex;
+    background-color: rgb(16, 16, 90);
+    justify-content: left;
+}
+.alfinal__info{
+    text-align: justify;
+    width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: smaller;
+    color: white;
+    text-align: justify;
+}
+.alfinal__contacto{
+    font-size: smaller;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.alfinal__miembros{
+    display: flow-root;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.alfinal__gmail{
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+}
