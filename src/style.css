@@ -1,21 +1,29 @@
 body{
     width: 1200px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     margin-left: auto;
     margin-right: auto;
 }
 
 .header{
     background-color: rgb(228, 209, 246);
+    margin-bottom: 10px;
 }
 
 .barra-menu{
     display: flex;
     height: 60px;
+    align-items: center;
+}
+
+.titulo-menu{
+    width: 50%;
+    align-items: center;
 }
 
 .contenedor-menu{
-    width: 100%;
+    width: 50%;
+    font-display: 20%;
     align-items: center;
 }
 
@@ -27,26 +35,138 @@ body{
 }
 
 .menu-principal__opcion{
-
+    font-size: smaller;
 }
 
 .banner{
-
+    margin-bottom: 10px;
 }
 
 .banner__Imagen{
     justify-content: center;
 }
 
-.noticias{
-    background-color: rgb(197, 196, 202);
+.servicios{
+    background-color: rgb(194, 218, 241);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.servicios__informacion{
+    
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.servicios__tipo{
+    background-color: rgb(255, 255, 255);
+    border-top-style: hidden;
+    width: 350px;
+    
+}
+.servicios__imagen{
+    padding: 0px;
+}
+.informacion{
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.noticias{
+    background-color: rgb(197, 218, 241);
+    display: flexbox;
     justify-content: space-evenly;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.noticia-bloque{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
 }
 
 .noticia{
-    width: 50%;
-    display: flexbox;
-    justify-content: center;
+    background-color: rgb(223, 239, 255);
+    align-items: center;
+}
+
+.noticia-imagen{
+    background-color: rgb(73, 73, 73);
+    width: 200px;
+    height: 200px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.noticia_imagen1{
+    background-color: rgb(73, 73,73);
+    width: 200px;
+    height: 190px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.noticia-info{
+    width: 400px;
+    height: 200px;
+    text-align: left;
+}
+
+.alfinal{
+    display: flex;
+    background-color: rgb(16, 16, 90);
+    justify-content: left;
+}
+
+.noticia{
+    display: flex;
+
+}
+
+.colIntegrante{
+    width: 25%;
+    height: 470px;
+    background-color:rgb(129, 162, 224);
+    display: inline-block;
+    padding: -10px;
+    margin-top: 10px;
+    text-align: center;
+    font: verdana;
+    color: white;
+    border-color: white;
+    margin-left: 90px;
+}
+.etiEquipo{
+    padding: 5px;
+    text-align: center;
+    bottom: 0;
+}
+
+.alfinal__info{
+    text-align: justify;
+    width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: smaller;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+.alfinal__contacto{
+    font-size: smaller;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.alfinal__miembros{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.alfinal__gmail{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
